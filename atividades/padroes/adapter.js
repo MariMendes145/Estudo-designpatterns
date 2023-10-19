@@ -29,7 +29,7 @@ class AdaptadorPato {
     this.pato.grasnar();
   }
 
-  voar() {
+  nadar() {
     this.pato.nadar();
   }
 }
@@ -51,7 +51,7 @@ class AdaptadorPatoDemo {
 
     console.log("\nGalinha (Pato Adaptado):");
     adaptador.cacarejar();
-    adaptador.voar();
+    adaptador.nadar();
   }
 }
 
